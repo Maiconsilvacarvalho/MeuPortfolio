@@ -1,0 +1,579 @@
+body{
+    margin: 0;
+    padding: 0;
+   -webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+
+
+
+header {
+    width: 100%;
+    height: 70vh;
+    background: url(https://image.freepik.com/free-photo/laptop-with-cup-coffee-view-from_426-19315254.jpg) no-repeat 50% 50%;
+    background-size: cover;
+    
+}
+
+.content {
+    width: 94%;
+    margin: 4em auto;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: justify;
+   
+  
+    
+}
+
+.logo {
+    line-height: 60px;
+    position: absolute;
+    float: left;
+    margin: 16px 46px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+nav {
+    position: absolute;
+    width: 100%;
+    line-height: 60px;
+    background-color: #000;
+}
+
+nav ul {
+    line-height: 60px;
+    list-style: none;
+    background: rgba(0, 0, 0, 0);
+    overflow: hidden;
+    color: #fff;
+    padding: 0;
+    text-align: right;
+    margin: 0;
+    padding-right: 40px;
+   
+}
+
+
+nav ul li {
+    display: inline-block;
+    padding: 16px 40px;;
+    
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    
+}
+
+.menu-icon {
+    line-height: 100%;
+    width: 100%;
+    background: #000;
+    text-align: right;
+    box-sizing: border-box;
+    padding: 15px 24px;
+    cursor: pointer;
+    color: #fff;
+    display: none;
+}
+
+@media(max-width: 786px) {
+
+    .logo {
+          position: absolute;
+          top: 0;
+          margin-top: 16px;
+    }
+
+    nav ul {
+          max-height: 0px;
+          background: #000;
+    }
+
+    nav.black ul {
+          background: #000;
+    }
+
+    .showing {
+          max-height: 19em;
+    }
+
+    nav ul li {
+          box-sizing: border-box;
+          width: 100%;
+          padding: 1.1px;
+          text-align: center;
+    }
+
+    .menu-icon {
+          display: block;
+    }
+
+}
+
+/*config project*/
+
+
+/*Config sobre*/
+.esquerdo{
+    width: 10%;
+    float: left;
+}
+
+.direito{
+    float: right;
+    width: 10%;
+}
+
+.center{
+    background-color:white;
+    color: #000;
+    display: inline-block;
+    width:70%;
+    height: 100%;
+    text-align:center;
+    float: center;
+    }
+
+/*Config h1 do Sobre*/
+    .sobre-principal{
+        float: center;
+        margin: 6%;
+        font-size: 30px;
+        font-family: 'Courier New', Courier, monospace;
+        position: relative;
+        text-align:center;
+        padding-right: 25%;
+    }
+
+    
+/*config foto do sobre*/
+
+.foto-minha{
+    width: 200px;
+    height: 200px;
+    float: right;
+    left: 70px;
+    border-radius: 30%;
+    text-align:justify;
+    margin: 15px;
+    
+}
+
+#container2{
+    text-align: center;
+}
+
+/*Config Galeria de fotos Projetos*/
+.servico1{
+    color:black;
+    text-align: center;
+    background-color:cadetblue;
+    font-size: 30px;
+    text-align:justify;
+}
+.servico1 h1{
+    text-align: center;
+}
+
+section{
+    overflow: hidden;
+}
+.project-container{
+    background-color: white;
+    font-size: 30px;
+}
+.project-container h1{
+    text-align: center;
+}
+
+img{
+    max-width: 100%;
+}
+
+.container{
+	width: 100%;
+	max-width: 1600px;
+	margin: auto;
+	margin-top: 30px;
+	display: flex;
+	flex-wrap: wrap;
+    justify-content: center;
+    background-color: white;
+}
+
+.item{
+	width: 22%;
+    margin: 5px;
+    text-align: center;
+    width: 200px;
+    height: 200px;
+    padding: 15px;
+}
+
+.item img{
+	border: 1px solid #fff;
+    cursor: pointer;
+}
+
+.ligthbox{
+	width: 60%;
+	height: 100vh;
+	position: fixed;
+	top: 0;
+	display: flex;
+	justify-content: center;
+    align-items: center;
+}
+
+.btn-close{
+	width: 60px;
+	height: 50px;
+	background: #AE4545;
+	border: 3px solid #fff;
+	border-radius: 100%;
+	color: #fff;
+	font-size: 30px;
+	font-weight: bold;
+	text-align: center;
+	padding-top: 12px;
+	position: absolute;
+	top: 30px;
+    right: 30px;
+    cursor: pointer;
+}
+/*FOTOS DE  SERVIÇOS*/
+.project-container2{
+    background-color: rgb(1, 25, 77);
+    font-size: 30px;
+}
+.project-container2 h1{
+    text-align: center;
+    
+}
+.container2{
+	width: 100%;
+	max-width: 1600px;
+	margin: auto;
+	margin-top: 30px;
+	display: flex;
+	flex-wrap: wrap;
+    justify-content: center;
+    background-color:rgb(1, 25, 77);
+}
+
+.item2{
+	width: 22%;
+    margin: 5px;
+    text-align: center;
+    width: 250px;
+    height: 250px;
+    padding: 15px;
+    
+}
+.item2 img{
+	border: 0px solid #fff;
+    cursor: pointer;
+    border-radius: 20%;
+}
+    
+/*final da página*/
+
+.footer{
+    background-color: #000;
+    color: white;
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+
+/*formulario*/
+  .contact-section{
+    background: url(bg.png) no-repeat center;
+    background-size: cover;
+    padding: 100px 0;
+   
+
+}
+
+  .contact-section h1{
+    text-align: center;
+    color: #ddd;
+}
+
+  .border{
+    width: 100px;
+    height: 10px;
+    background: #34495e;
+    margin: 40px auto;
+}
+  
+  .contact-form{
+    max-width: 600px;
+    margin: auto;
+    padding: 0 10px;
+    overflow: hidden;
+}
+  
+  .contact-form-text{
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 16px 0;
+    border: 0;
+    background: #111;
+    padding: 20px 40px;
+    outline: none;
+    color: #ddd;
+    transition: 0.5s;
+}
+
+  .contact-form-text:focus{
+    box-shadow: 0 0 10px 4px #34495e;
+}
+
+  textarea.contact-form-text{
+    resize: none;
+    height: 120px;
+}
+
+  .contact-form-btn{
+    float: right;
+    border: 0;
+    background: #34495e;
+    color: #fff;
+    padding: 12px 50px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.contact-form-btn:hover{
+    background: #2980b9;
+}
+
+  /*Efect tecnologys*/
+ 
+.progressBar{
+    position: relative;
+    width: 100%;
+    height: 30px;
+    background: #eeeeee;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 1px 2px #222;
+    text-align:justify;
+}
+
+.title{
+    position: absolute;
+    width: 100px;
+    height: 30px;
+    padding-left: 10px;
+    float: left;
+    font-weight: bold;
+    color: white;
+    line-height: 2.5;
+    z-index: 10000;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    box-shadow: 2px 0 2px #333;
+    text-shadow: 1px 1px 1px #000;
+    text-align:justify;
+}
+
+.progress_value{
+    position: relative;
+    float: right;
+    padding-right: 10px;
+    line-height: 2.5;
+    font-weight: bold;
+    color: #455a64;
+    z-index: 10000;
+    text-align:justify;
+}
+
+.progress{
+    height: 30px;
+    position: absolute;
+    border-radius: 5px;
+    box-shadow: 2px 0 2px #555;
+    text-align:justify;
+}
+
+/*Cor de dentro*/
+.htmlColor{
+    background: #ff6f00;
+}
+.cssColor{
+    background: #4a148c;
+}
+.jsColor{
+    background: #1a237e;
+}
+.phpColor{
+    background: #1b5e20;
+}
+.ajaxColor{
+    background: #b71c1c;
+}
+.mysqlColor{
+    background: #000;
+}
+.photoshopColor{
+    background: #1a237e;
+}
+.wordpressColor{
+    background: #1b5e20;
+}
+.jqueryColor{
+    background: #1b5e20;
+}
+/*Cor de fora*/
+.html{
+    background: #4488FD;
+}
+
+.css{
+    background: #4488FD;
+}
+.js{
+    background: #4488FD;
+}
+.php{
+    background: #4488FD;
+}
+.ajax{
+    background: #4488FD;
+}
+.mysql{
+    background: #4488FD;
+}
+.photoshop{
+    background:#4488FD;
+}
+.wordpress{
+    background: #4488FD;
+}
+.jquery{
+    background: #4488FD;
+}
+@media (max-width: 720px) {
+    .main{
+        width: 90%;
+    }
+}
+/*Config contatos*/
+.inicio{
+    text-size-adjust: none !important;
+    -ms-text-size-adjust: none !important;
+    -webkit-text-size-adjust: none !important;
+    width: 100%;
+}
+
+.nome-front{
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    color: #212121;
+    text-align:justify;
+    margin-left: 40%;
+}
+.nome{
+    font-weight: bold; 
+    color: #212121; 
+    font-family: Helvetica, Arial, sans-serif; 
+    display: inline;
+    text-align:justify;
+    
+    
+}
+.email{
+    color: #477ccc; 
+    text-decoration: none; 
+    text-align: justify;
+}
+.email p{
+     text-align: justify;
+    margin-left: 40%;
+}
+
+.telefone{
+    color: #212121; 
+    font-family: Helvetica, Arial, sans-serif; 
+    text-align:justify;
+    margin-left: 40%;
+}
+.linkedin-geral{
+    text-decoration: none; 
+    display: inline;
+    text-align:justify;
+}
+.imagem-linkedin{
+    margin-top: 10%; 
+    border: 2px;
+    padding-left:10px;
+    width: 50;
+    height: 50;
+    text-align:justify;
+}
+.instagram-geral{
+    text-decoration: none; 
+    display: inline;
+    text-align:justify;
+}
+
+.imagem-instagram{
+    margin-bottom: 2px; 
+    border: none;
+    padding-left:10px;
+    margin: 2px;
+    width: 50;
+    height: 50;
+    text-align:justify;
+}
+.github-geral{
+    display: inline; 
+    text-decoration: none;
+}
+.imagem-github{
+    margin-bottom:2px; 
+    border: none;
+    padding-left:10px;
+    width: 50;
+    height: 50;
+    text-align:justify;
+}
+.whatsapp-geral{
+    display: inline; 
+    text-decoration: none;
+    text-align:justify;
+}
+.imagem-whatsapp{
+    margin-bottom: 2px; 
+    border: none; 
+    padding-left:10px;
+    width: 50;
+    height: 50;
+    text-align:justify;
+}
+.telegram-geral{
+    display: inline; 
+    text-decoration: none;
+    text-align:justify;
+}
+.imagem-telegram{
+    margin-bottom: 2px; 
+    border: none;
+    padding-left:10px;
+    width: 50;
+    height: 50;
+    text-align:justify;
+}
